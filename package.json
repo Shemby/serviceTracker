@@ -1,7 +1,7 @@
 {
-  "name": "serviceTracker",
+  "name": "service-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An easy way to keep track of the service history requirements of HVAC systems",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run front-end\"",
@@ -9,7 +9,7 @@
     "front-end": "npm start --prefix front-end"
   },
   "keywords": [],
-  "author": "",
+  "author": "Samuel Hemby",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
